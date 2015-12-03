@@ -166,7 +166,7 @@
       var column = -n;
       var counter = 0;
       var row = 0;
-    console.log(column);
+    // console.log(column);
       for(var i= column; i<=n-1; i++){
         if(this.hasMajorDiagonalConflictAt(i)){
           return true;
@@ -203,7 +203,7 @@
       var column = n*2;
       var counter = 0;
       var row = 0;
-    console.log(column);
+    // console.log(column);
       for(var i= column; i>=0; i--){
         if(this.hasMinorDiagonalConflictAt(i)){
           return true;
