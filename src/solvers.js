@@ -118,5 +118,6 @@ window.countNQueensSolutions = function(n) {
     }
   };
   checkBoard(emptyBoard, 0);
+
   return solutionCount;
 };
